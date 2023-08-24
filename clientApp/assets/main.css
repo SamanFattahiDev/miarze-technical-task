@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.activeClass *{
+@apply fill-primary !important;
+}
+
+body{
+  direction: rtl;
+}
+
+.toman{
+  @apply font-bold text-[12px];
+}
